@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/profile.jpg" alt="Profile photo" />
+      <span>Derrick</span>
+    </div>
+    <div class="hamburger">
+      <i class='bx bx-menu'></i>
+    </div>
+    <nav class="navbar">
+      <a href="#home" class="nav-link active" data-target="home">Home</a>
+      <a href="#about" class="nav-link" data-target="about">About</a>
+      <a href="#projects" class="nav-link" data-target="projects">Projects</a>
+      <a href="#contact" class="nav-link" data-target="contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="section">
+    <div class="home-content">
+      <img src="images/profile.jpg" alt="Derrick Bikeri" class="profile-image" />
+      <h1><i class='bx bx-home-alt'></i> Hi, I'm Derrick Bikeri</h1>
+      <h3>Junior Frontend Developer</h3>
+       <p class="intro">Turning Ideas into Stunning Web Designs. I’m a passionate coder who builds responsive, user-friendly websites with HTML, CSS, and JavaScript—let’s create something amazing together!</p>
+      <div class="btn-box">
+        <a href="#contact" class="cta-button">Hire me</a>
+        <a href="#contact" class="cta-button">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="section-content animate">
+      <h2><i class='bx bx-user'></i> About Me</h2>
+      <p>Greetings! I’m Derrick Bikeri, an enthusiastic Junior Frontend Developer with a solid foundation in building captivating and intuitive web interfaces. Holding a degree in Finance and Accounting, I bring a unique blend of analytical skills and creative design to my work. My expertise lies in developing responsive websites using HTML, CSS, and JavaScript, with a growing proficiency in frameworks like React. With hands-on customer service experience, I excel at understanding user needs and translating them into seamless digital experiences, including optimized layouts, performance enhancements, and engaging animations. I’m committed to continuous learning and leveraging innovative technologies to craft accessible, high-quality solutions. Let’s collaborate to create something extraordinary!</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="section-content animate">
+      <h2><i class='bx bx-code-alt'></i> Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Bikeri Eats</h3>
+          <p>A clean and responsive personal website built using HTML, CSS, and Boxicons.</p>
+          <a href="https://bikerieats.netlify.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Scents APP</h3>
+          <p>Frontend of a sample shop with filters, product cards, and grid layout in Flexbox.</p>
+          <a href="https://ljscents.netlify.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Coming Soon Page</h3>
+          <p>A minimalist landing page with a countdown timer and responsive design.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="section-content animate">
+      <h2><i class='bx bx-envelope'></i> Contact Me</h2>
+      <p>Get in touch with me for collaborations or opportunities!</p>
+      <form action="https://formspree.io/f/xblkgnzb" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/derrick-bikeri-b1a26520b" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/BIKERIDERRICK" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="mailto:bikeriderrick6@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
